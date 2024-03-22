@@ -8,7 +8,13 @@
 </head>
 <style>
     body {
-        background-color: aqua;
+        background-image: url(/Proyecto7/Image1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #Cal {
+        color: white;
     }
 </style>
 <body>
@@ -16,7 +22,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center">Calculadora en JS</h1>
+                <h1 id="Cal" class="text-center">Calculadora en JS</h1>
             </div>
         </div>
     </div>
@@ -93,6 +99,18 @@
                 </div>
                 <div class="col-3 text-center py-3">
                     <button type="button" class="btn btn-warning form-control rounded-pill" onclick="Pi()">π</button>
+                </div>
+                <div class="col-3 text-center py-3">
+                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="Seno()">sin</button>
+                </div>
+                <div class="col-3 text-center py-3">
+                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="Coseno()">cos</button>
+                </div>
+                <div class="col-3 text-center py-3">
+                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="Tangente()">tan</button>
+                </div>
+                <div class="col-3 text-center py-3">
+                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="Logaritmo()">log</button>
                 </div>
             </div>
             <div class="row">

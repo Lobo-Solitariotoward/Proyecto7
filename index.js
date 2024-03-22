@@ -30,17 +30,19 @@ let Pi = () => {
     resultado.value = Math.PI;
 }
 
-//Funcion Arrow
-/*let calcular = () => {
-    resultado.value = eval(resultado.value);
+let Seno = () => {
+    resultado.value = Math.sin(resultado.value);
 }
 
-let limpiar = () => {
-    resultado.value = ' ';
+let Coseno = () => {
+    resultado.value = Math.cos(resultado.value);
 }
 
-let asignar = (valor) => {
-    //short Hand
-    resultado.value += valor;
+let Tangente = () => {
+    resultado.value = Math.tan(resultado.value);
 }
-*/
+
+let Logaritmo = () => {
+    resultado.value = Math.log(resultado.value);
+}
+
